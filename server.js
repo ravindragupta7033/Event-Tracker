@@ -4,8 +4,9 @@ const path = require('path');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const events = require('./events');
+require('dotenv').config();
 
-mongoose.connect('mongodb+srv://mujtabah258:%23Qwerty15527@cluster0.jdghvaw.mongodb.net/', {
+mongoose.connect(process.env.MONGODB_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() => {
