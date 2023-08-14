@@ -1,0 +1,29 @@
+/* styles.css */
+
+/* Dark theme */
+body {
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+}
+
+/* Center content */
+/* .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+/* Style cards */
+.event-card {
+    background-color: #343A40;
+    color: #FFFFFF;
+    border: none;
+    margin: 10px;
+}
+a{
+    font-size: 1.6rem;
+    /* color: red; */
+    /* margin-bottom: 2rem; */
+}
